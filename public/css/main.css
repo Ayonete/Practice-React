@@ -1,0 +1,20 @@
+
+.animated-child{
+    
+
+    /* animate in */
+    animation: 2.5s ease-in-out fadeIn infinite; /* Notice I set the animation to infinite*/
+    
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+    }
